@@ -1,12 +1,63 @@
-# React + Vite
+# To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive To-Do list application built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add tasks to the to-do list.
+- Mark tasks as completed or undo completion.
+- Delete tasks from the list.
+- Responsive design that works well on mobile and larger screens.
+- Smooth user experience with real-time updates.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd todo-app
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+## Usage
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and go to `http://localhost:3000` (or the port specified in the terminal) to use the app.
+
+## Project Structure
+
+- `src/` - Source code directory
+  - `components/` - React components (`AddTodo`, `TodoList`, etc.)
+  - `App.jsx` - Main application component
+  - `index.css` - Global styles with Tailwind CSS import
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+- Vite (for development server and build)
+
+## Notes
+
+- The app is designed to be responsive and works on both mobile and larger screens.
+- The to-do list supports adding, completing, undoing, and deleting tasks.
+
+## License
+
+This project is open source and available under the MIT License.
