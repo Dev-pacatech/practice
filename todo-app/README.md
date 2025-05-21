@@ -60,4 +60,4 @@ Open your browser and go to `http://localhost:3000` (or the port specified in th
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open source
