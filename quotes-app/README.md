@@ -1,6 +1,6 @@
 # Quotes App
 
-A simple React application built with Vite that generates random quotes using the Quotable API. The app displays a random quote along with its author and allows users to fetch new quotes with the click of a button. It features loading and error states for a smooth user experience.
+A simple and responsive Random Quotes Generator built with React and Tailwind CSS, enhanced with smooth animations using Framer Motion. The app fetches and displays random quotes from the Quotable API, allowing users to get new inspirational quotes with the click of a button. It features loading and error states to ensure a smooth and user-friendly experience.
 
 ## Features
 
@@ -9,6 +9,7 @@ A simple React application built with Vite that generates random quotes using th
 - Loading indicator while fetching data
 - Error handling for failed requests
 - Button to fetch a new random quote
+- Smooth animations powered by Framer Motion
 - Styled with Tailwind CSS for a clean and modern look
 
 ## Installation
@@ -43,6 +44,7 @@ Click the "New Quote" button to fetch a new random quote.
 - React
 - Vite
 - Tailwind CSS
+- Framer Motion
 - JavaScript (ES6+)
 - Quotable API for quotes
 - Custom React hook for data fetching
@@ -67,4 +69,4 @@ quotes-app/
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open source
