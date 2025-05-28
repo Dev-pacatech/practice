@@ -8,8 +8,7 @@ This folder is used for practicing React projects and experiments.
 - Each project or practice work is organized in its own subfolder.
 - The `todo-app` project is located separately in the `todo-app` folder.
 - The `random-qoutes-genarator` project is located separately in the `quotes-app` folder.
-
-.
+- The `Note-app` project is located separately in the `Note-App` folder.
 
 ## Notes
 
