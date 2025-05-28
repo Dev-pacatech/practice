@@ -43,8 +43,8 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-200 p-4">
+      <h1 className="text-3xl font-bold text-center mb-6"> 📝 Note App</h1>
       <div className="flex flex-col items-center max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">
-        <h1 className="text-3xl font-bold text-center mb-6"> 📝 Note App</h1>
         <NoteForm
           onAddNote={addNote}
           onUpdateNote={updateNote}
